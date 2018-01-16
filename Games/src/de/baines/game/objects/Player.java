@@ -32,8 +32,8 @@ public class Player {
 		
 		if (f_posx<0) {f_posx=0;}
 		if (f_posy<0) {f_posy=0;}
-		if (f_posx>screenWidth-size) {f_posx=screenWidth-size;}
-		if (f_posy>screenHeight-size-25) {f_posy=screenHeight-size-25;}
+		if (f_posx>screenWidth-bounding.width) {f_posx=screenWidth-bounding.width;}
+		if (f_posy>screenHeight-bounding.height-25) {f_posy=screenHeight-bounding.height-25;}
 
 		bounding.x=(int)f_posx;
 		bounding.y=(int)f_posy;
