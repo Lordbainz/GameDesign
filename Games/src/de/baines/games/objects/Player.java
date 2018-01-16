@@ -9,6 +9,8 @@ public class Player {
 	private float f_posy ;
 	private int moveSpeed = 5;
 	
+	private int energy;
+	
 	public Player(int x, int y ,int size ){
 		this.bounding = new Rectangle(x, y, size, size);
 		this.f_posx = x;
@@ -28,6 +30,15 @@ public class Player {
 	
 	public Rectangle getBounding() {
 		return bounding;
+	}
+	
+	public int getEnergy() {
+		return energy;
+	}
+	
+	public void setEnergy(int energy) {
+		this.energy=energy;
+		
 	}
 	
 	
