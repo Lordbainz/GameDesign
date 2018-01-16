@@ -9,8 +9,6 @@ import de.baines.game.objects.KeyHandler;
 public class Frame extends JFrame {
 
 	private static final long serialVersionUID = 1L;
-	
-	private int test;
 
 	private Screen screen;
 	

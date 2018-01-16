@@ -12,7 +12,7 @@ public class Main {
 	    int DISPLAYHEIGHT = 600;
 	    int DISPLAYWIDTH = 800;
 		
-		Player player = new Player(300,300,100);
+		Player player = new Player(300,300,100,DISPLAYHEIGHT,DISPLAYWIDTH);
 		KeyHandler keyboard = new KeyHandler();
 		
 		
