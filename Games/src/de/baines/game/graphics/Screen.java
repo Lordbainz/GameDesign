@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 import javax.swing.JLabel;
 
-import de.baines.games.objects.Player;
+import de.baines.game.objects.Player;
 
 public class Screen extends JLabel {
 

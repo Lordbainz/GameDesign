@@ -1,4 +1,4 @@
-package de.baines.games.objects;
+package de.baines.game.objects;
 
 import java.awt.Rectangle;
 

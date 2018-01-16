@@ -3,7 +3,7 @@ package de.baines.game.graphics;
 
 import javax.swing.JFrame;
 
-import de.baines.games.objects.KeyHandler;
+import de.baines.game.objects.KeyHandler;
 
 
 public class Frame extends JFrame {

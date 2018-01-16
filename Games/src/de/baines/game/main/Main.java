@@ -1,8 +1,7 @@
 package de.baines.game.main;
 
 import de.baines.game.graphics.*;
-import de.baines.games.objects.*;
-
+import de.baines.game.objects.*;
 
 import javax.swing.JFrame;
 
