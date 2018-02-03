@@ -11,7 +11,7 @@ public class Main {
 		
 	    int DISPLAYHEIGHT = 600;
 	    int DISPLAYWIDTH = 800;
-	    System.out.println("test");
+	    System.out.println("test1212");
 		
 		Player player = new Player(300,300,100,DISPLAYHEIGHT,DISPLAYWIDTH);
 		KeyHandler keyboard = new KeyHandler();
